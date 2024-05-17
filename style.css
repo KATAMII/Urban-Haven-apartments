@@ -304,6 +304,7 @@ span{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 .our-houses-title{
     display: flex;
@@ -326,39 +327,164 @@ span{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column;
-    gap: 3rem; 
+    gap: 2rem; 
+    background-color: #ea15391e;
+    padding: 4rem;
+    
 }
 .houses{
-    width: 70vh;
-    height: 70vh;
-    border: 3px black solid;
+    background-color:white;
+   
+    width: 40vh;
+    margin-top: 2px;
 }
+
 .house-img{
-    height: 25rem;
-    border-radius: 20px;
+    height: 20rem;
+    border-radius:20px;
     overflow: hidden;
+    padding: 10px;
+    
 }
 .house-img1{
     width: 100%;
     height: 100%;
     display: block;
     object-fit: cover;
+    border-radius: 20px;
 }
 .house-img-txt{
     margin-top: 2rem;
+    padding: 1rem;
 }
 .hous-txt{
-    line-height: 3.5rem;
+    line-height: 3rem;
 }
 .house-name{
     font-family: var(--font-family);
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--primary-color);
     font-weight: 500;
+    text-transform: uppercase;
 }
 .house-paragraph{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 300;
+    text-align: start;
 }
-.price
+.price{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.prize1{
+    font-size: 2rem;
+    font-family:"Dancing script",cursive;
+}
+.request-house{
+    color: var(--secondary-color);
+    font-size: 1rem;
+}
+.abt-boxes1{
+    display: flex;
+    flex-direction: row;
+   margin-top: 1rem;
+}
+/*----------------contacts-----------------------------------------*/
+.container1{
+    padding: 10px 10%;
+    margin-top: 5rem;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+.contact-left{
+    flex-basis: 35%;
+   
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+.contactss{
+    font-size: 4rem;
+    font-family:"Dancing script",cursive;
+    color: #ea1538;
+    font-weight: 900;
+}
+.contact-left p i{
+    color:  #ea1538;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color:  #ea1538;
+    transform: translate(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background:  #ea1538;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 2rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    padding: 10px;
+    margin-left: 5rem;
+}
+.contact-right form{
+    width: 100%;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline:none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px; 
+}
+.copyright i{
+    color:  #ea1538;
+}
+form{
+    background-color:#f7f5f532 ;
+    border-radius: 10px;
+}
+
