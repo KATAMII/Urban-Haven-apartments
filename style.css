@@ -164,7 +164,19 @@ span{
         height: 110vh;
     }
 }
-
+@media screen and (max-width: 27em) {
+    nav{
+        padding-right: 10%;
+        margin-right: 15rem; 
+    }
+    .herocontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-top: 5rem;
+        margin-right: 20rem;
+    }
+}
 /********About***********/
 .about{
     display: flex;
@@ -405,8 +417,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
-    
+    gap: 4rem; 
 }
 .contact-left{
     flex-basis: 35%;
@@ -493,4 +504,30 @@ form{
     background-color:#f7f5f532 ;
     border-radius: 10px;
 }
+@media screen and (max-width: 51em) {
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5rem;
+        margin-top: 10rem;
+        background-color: #fffffc; 
+    }
+    .aboutimg{
+        width: 50%;
+        margin-right: 15rem;
+    }
+}
+@media screen and (max-width: 51em) {
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem; 
+    }
+}
+
+
 
