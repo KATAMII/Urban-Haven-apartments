@@ -475,13 +475,17 @@ form .btn2{
 .copyright{
     width: 100%;
     text-align: center;
-    padding: 25px 0;
-    background: #262626;
+    
+    background: #e05d5d;
     font-weight: 300;
     margin-top: 20px; 
+    height: 5vh;
 }
-.copyright i{
-    color:  #ea1538;
+.copyright p{
+    color:  var(--primary-color);
+    font-size: 2rem;
+    
+    
 }
 form{
     background-color:#f7f5f532 ;
