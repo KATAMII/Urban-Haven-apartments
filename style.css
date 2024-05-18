@@ -11,11 +11,15 @@
   --secondary-color: #fff;
   --other-color: #ea1538;;
   --font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 html {
   color: var(--primary-color);
   font-size: 62.5%;
   /* 1rem = 10px */
+}
+body{
+    width: 100%;
 }
 .home{
     width: 100%;
@@ -402,7 +406,7 @@ span{
     justify-content: center;
     align-items: center;
     gap: 4rem;
-
+    
 }
 .contact-left{
     flex-basis: 35%;
@@ -476,16 +480,14 @@ form .btn2{
     width: 100%;
     text-align: center;
     
-    background: #e05d5d;
+    background: #ea15391e;
     font-weight: 300;
     margin-top: 20px; 
     height: 5vh;
 }
 .copyright p{
     color:  var(--primary-color);
-    font-size: 2rem;
-    
-    
+    font-size: 1.5rem;  
 }
 form{
     background-color:#f7f5f532 ;
