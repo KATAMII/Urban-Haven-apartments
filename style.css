@@ -205,8 +205,9 @@ span{
         margin-right: 20rem;
     }
     .logo{
-        margin-right: 15rem;
-        margin-left: 10rem;
+       font-size: 3.5rem;
+       margin-right: 7rem;
+
     }
     .store{
         font-size: 3rem;
@@ -579,14 +580,17 @@ form{
         width: 50%;
         margin-right: 15rem;
     }
-}
-@media screen and (max-width: 51em) {
     .row{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         gap: 4rem; 
+    }
+}
+@media screen and (max-width: 27em) {
+    .about-text-box{
+        margin-left: 2rem;
     }
 }
 
