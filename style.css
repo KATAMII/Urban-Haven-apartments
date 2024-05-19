@@ -187,7 +187,7 @@ span{
         margin-top: 2rem; 
     }
     .nav-links{
-        margin-left: 20rem;
+        margin-left: 2rem;
         margin-right: 10rem;
     }
 
@@ -298,6 +298,7 @@ span{
     color: #ea1538;
     cursor: pointer;
 }
+
 /********Amenities***********/
 .amenitie-section{
     margin-top: 10rem;
@@ -455,6 +456,12 @@ span{
     flex-direction: row;
    margin-top: 1rem;
 }
+@media screen and (max-width: 27em) {
+    .title-txt1{
+     font-size: 2rem;
+    }
+ }
+ 
 /*----------------contacts-----------------------------------------*/
 .container1{
     padding: 10px 10%;
