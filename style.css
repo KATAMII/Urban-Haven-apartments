@@ -41,6 +41,8 @@ nav{
     background-color: rgb(255,255,255);
     height: auto;
     padding-top: 2rem;
+    width: 100%;
+    
 }
 .logo{
     color: #f45f5f;
@@ -172,17 +174,54 @@ span{
         height: 110vh;
     }
 }
+@media screen and (max-width: 23em) {
+    .store{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .herobtns{
+        margin-top: 1rem;
+        gap: 2rem;
+    }
+    .herocontainer{
+        margin-top: 2rem; 
+    }
+    .nav-links{
+        margin-left: 20rem;
+        margin-right: 10rem;
+    }
+
+}
 @media screen and (max-width: 27em) {
     nav{
         padding-right: 10%;
-        margin-right: 15rem; 
+        margin-right: 20rem;
+        width: 100%;
+
+    }
+    .nav-links{
+        margin-left: 2rem;
+        margin-right: 20rem;
+    }
+    .logo{
+        margin-right: 18rem;
+    }
+    .store{
+        font-size: 4rem;
     }
     .herocontainer{
         display: flex;
         justify-content: center;
         align-items: center; 
-        margin-top: 5rem;
-        margin-right: 20rem;
+        margin-top: 8rem;
+        margin-right: 18rem;
+    }
+    .herobtns{
+        margin-top: 3rem;
+        gap: 3rem;
+    }
+    .herobtns a{
+        font-size: 2rem;
     }
 }
 /********About***********/
@@ -437,6 +476,11 @@ span{
 .contact-left p{
     margin-top: 4rem;
     font-size: 2rem;
+    
+}
+.contact-left p img{
+    width: 3rem;
+    height: 5vh;
 }
 .contactss{
     font-size: 4rem;
