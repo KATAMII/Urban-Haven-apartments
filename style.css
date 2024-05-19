@@ -197,24 +197,26 @@ span{
         padding-right: 10%;
         margin-right: 20rem;
         width: 100%;
-
+        align-items: center;
+        justify-content: center;
     }
     .nav-links{
-        margin-left: 2rem;
+        margin-left: 8rem;
         margin-right: 20rem;
     }
     .logo{
-        margin-right: 18rem;
+        margin-right: 15rem;
+        margin-left: 10rem;
     }
     .store{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .herocontainer{
         display: flex;
         justify-content: center;
         align-items: center; 
         margin-top: 8rem;
-        margin-right: 18rem;
+        margin-right: 10rem;
     }
     .herobtns{
         margin-top: 3rem;
