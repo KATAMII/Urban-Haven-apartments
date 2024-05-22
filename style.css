@@ -244,10 +244,17 @@ span{
     display: block;
     object-fit: cover;
     border-top-right-radius: 50px;  
+    transition: translate 0.2s ease-in-out;
+}
+.aboutimg1:hover{
+    transform: scale(1.2);
 }
 .aboutimg{
     width: 50%;
     margin-left: 15rem;
+    position: relative;
+    overflow: hidden; 
+    border-top-right-radius: 50px; 
 }
 .about-text-box{
     display: flex;
@@ -336,7 +343,7 @@ span{
     background-color:#ea153932 ;
     border-radius: 15px;
     column-gap: 1rem;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 .amenities-container:hover{
     transform: scale(1.1);
@@ -412,6 +419,8 @@ span{
     border-radius:20px;
     overflow: hidden;
     padding: 10px;
+    position: relative;
+    overflow: hidden;
     
 }
 .house-img1{
@@ -420,6 +429,10 @@ span{
     display: block;
     object-fit: cover;
     border-radius: 20px;
+    transition: translate 0.2s ease;
+}
+.house-img1:hover{
+    transform: scale(1.2);
 }
 .house-img-txt{
     margin-top: 2rem;
@@ -492,6 +505,7 @@ span{
 .contact-left p img{
     width: 3rem;
     height: 5vh;
+    align-items: center;
 }
 .contactss{
     font-size: 4rem;
